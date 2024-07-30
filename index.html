@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dappr</title>
+    <!-- 
+        Link to external stylesheet.
+    -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- 
+        Fixed navbar containing Logo/Name, menu and search bar 
+    -->
+    <navbar class="nav-box">
+        <!-- 
+            Company logo.
+        -->
+        <h1 class="company-logo">Dappr</h1>
+        <!-- 
+            Navigation menu.
+        -->
+        <div class="nav-search">
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Infromation</li>
+                <li>More</li>
+                <li id="drop-menu">&#x2304;</li>
+            </ul>
+            <!-- 
+                Search form.
+            -->
+            <form id="search-box">
+                <input class="search-input" type="text" placeholder="Search...">
+                <button class="search-button"><img class="search-icon" src="./searchIcon.png" /> </button>
+            </form>
+        </div>
+        <!-- 
+            Hamburger menu icon.
+        -->
+        <div>
+            <img class="hamburger" src="./hamburger.png">
+        </div>
+    </navbar>
+
+    <!-- 
+        Social icons on the right side.
+    -->
+    <div class="social-icons">
+        <a href="#"><img src="./whatsapp.png" alt="Whatsapp"></a>
+        <a href="#"><img src="./facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./twitter.png" alt="Twitter"></a>
+    </div>
+
+    <!-- 
+        Intro Section.
+    -->
+    <section class="introduction">
+        <img class="coding" src="./laptop.png" alt="coding">
+        <!-- 
+            Intro text.
+        -->
+        <div class="text">
+            It's not only writers who can benefit from this free online tool. If<br>
+            you're a programmer who's working on a ......
+        </div>
+    </section>
+
+    <!-- 
+        Stats Section.
+    -->
+    <section class="statistics">
+        <div class="questions">Total Question's<br>200,000</div>
+        <div class="answers">Total Answer's<br>105,000</div>
+        <div class="participated">Participated<br>10,000</div>
+        <div class="passed">Total Passed<br>6,000</div>
+    </section>
+
+    <!-- 
+        Personal Info.
+    -->
+    <section class="information">
+        <!-- 
+            Sidebar.
+        -->
+        <div class="sidebar">
+            <div>YOUR INFO</div>
+            <div>BOOKMARKS</div>
+            <div>SETTING</div>
+        </div>
+        <!-- 
+            Info on present screen.
+        -->
+        <div class="info-present">
+            <span class="info-title">Your Information</span>
+            <ul>
+                <li>Name &nbsp;&nbsp;:<span> Vishal</span></li>
+                <li>Email &nbsp;&nbsp;:<span> dummy@gmail.com</span></li>
+                <li>Phone &nbsp;:<span> 1234567890</span></li>
+                <li>Marks &nbsp;:<span> 500.00</span></li>
+            </ul>
+            <button class="next">Next &#8594</button>
+        </div>
+    </section>
+
+    <!-- 
+        Chatbot.
+    -->
+    <img class="chat" src="./chatbot.png" alt="chatbot-icon">
+</body>
+
+</html>
